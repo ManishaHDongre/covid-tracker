@@ -1,0 +1,111 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 20px 0;
+}
+
+
+.card{
+    width: 12rem;
+    height: 8rem;
+    justify-content: center;
+    float: left;
+    padding: 20px;
+    margin: 20px;
+    flex-direction: row;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.007);
+    border-radius: .25rem;
+}
+
+
+.card-text:hover{
+    font-weight: bolder;
+    cursor: default;
+}
+
+.card-title:hover{
+    font-weight: bolder;
+    cursor: default;
+}
+
+.lottie_file{
+    max-width: 18rem;
+    position: relative;
+    display: flex;
+    flex-direction: inherit;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    background:"transparent";  
+    width: 1000px; 
+    height: 1000px;
+    animation-play-state: running;
+}
+
+h2{
+    text-align: center;
+    color:#007bff;;
+    size: 70px;
+    font-weight: bolder;
+    margin: 20px;
+}
+
+.updated_date,.updated_date_data{
+    text-align: center;
+    color: #0099ff;;
+    font-weight: bolder;
+    margin: 15px;
+
+}
+
+.link_info{
+    clear: both;
+    margin-left: 15px;
+}
+
+.link_item{
+    font-size: inherit;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.is-recovered{
+    color: #28a745;
+}
+.is_active{
+    color: #ff073a;
+}
+.is_confirmed{
+    color: rgb(255, 136, 0);
+}
+
+@media screen and (max-width: 700px){
+    .card{
+      align-items: center;
+      max-width: 100%;
+      }
+    }
+
+@media screen and (min-width: 700px){
+    .card{
+        align-items: center;
+        margin-left: 30px;
+        }
+    }
